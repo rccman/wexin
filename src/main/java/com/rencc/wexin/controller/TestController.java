@@ -13,4 +13,8 @@ public class TestController {
     public String hello(){
         return "hello";
     }
+    @RequestMapping("/index")
+    public String index(){
+        return "WeChart project on Spring Boot";
+    }
 }
